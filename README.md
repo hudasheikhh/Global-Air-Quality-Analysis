@@ -76,10 +76,28 @@ Together, these datasets enable analysis of how environmental, climate, and soci
 * CSS3
 * Data Visualization & Storytelling Techniques
 
-# Future Improvements
+# How to Run
+Open directly:
 
-* Integrate real-time air quality APIs.
-* Expand analysis to additional countries and regions.
-* Add predictive forecasting for pollution trends.
-* Incorporate advanced health risk modeling.
-* Enhance dashboard interactivity and filtering capabilities.
+index.html
+Right Click → Open with Live Server
+Project Structure
+├── index.html
+├── styles/
+│   └── main.css
+├── scripts/
+│   ├── main.js
+│   ├── map.js
+│   ├── dual.js
+│   ├── span.js
+│   ├── group.js
+│   ├── bubble.js
+│   ├── scatter.js
+│   ├── hexbin.js
+│   └── parallel.js
+├── Data/
+│   ├── Final_Dataset.csv
+│   └── world.geojson
+├── preprocessing.ipynb
+├── EDA & Key Insights.ipynb
+└── README.md

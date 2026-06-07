@@ -76,12 +76,19 @@ Together, these datasets enable analysis of how environmental, climate, and soci
 * CSS3
 * Data Visualization & Storytelling Techniques
 
-# How to Run
-Open directly:
+## How to Run
 
-index.html
-Right Click → Open with Live Server
-Project Structure
+1. Clone or download the repository.
+2. Open the project folder in **Visual Studio Code**.
+3. Install the **Live Server** extension if not already installed.
+4. Right-click on `index.html`.
+5. Select **Open with Live Server**.
+
+The application will launch automatically in your default web browser.
+
+### Project Structure
+
+```text
 ├── index.html
 ├── styles/
 │   └── main.css
@@ -101,3 +108,5 @@ Project Structure
 ├── preprocessing.ipynb
 ├── EDA & Key Insights.ipynb
 └── README.md
+```
+
